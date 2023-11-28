@@ -1,25 +1,25 @@
 # Float
 
-## install
+## Usage
 
 ```js
 const Float = require("@devope/float");
+
+let randomFloat = new Float();
+console.log(randomFloat);
 ```
 
 ```js
 import Float from "@devope/float";
+
+let randomFloat = new Float();
+console.log(randomFloat);
 ```
 
 ```html
-<script src="https://unpkg.com/@devope/float">
-
+<script src="https://unpkg.com/@devope/float"></script>
 <script>
-// ...
+    let randomFloat = new Float();
+    console.log(randomFloat);
 </script>
-```
-
-## use
-
-```js
-let randomFloat = new Float();
 ```
