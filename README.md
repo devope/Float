@@ -1,4 +1,4 @@
-# Float.js
+# Float
 
 ## use
 

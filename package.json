@@ -1,5 +1,5 @@
 {
-  "name": "float.js",
+  "name": "@devope/float",
   "version": "1.0.0",
   "description": "Type",
   "main": "dist/main.js",
