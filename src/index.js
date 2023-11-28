@@ -56,4 +56,4 @@ Float.prototype.equals = function (numberToCompare) {
     }
 }
 
-module.export = Float;
+module.exports = Float;
