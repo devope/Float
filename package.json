@@ -1,0 +1,21 @@
+{
+  "name": "float.js",
+  "version": "1.0.0",
+  "description": "Type",
+  "main": "dist/main.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [
+    "float"
+  ],
+  "author": "Kirill Devope",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
+  }
+}
