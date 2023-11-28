@@ -1,6 +1,6 @@
 {
   "name": "@devope/float",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Type",
   "main": "dist/main.js",
   "directories": {
