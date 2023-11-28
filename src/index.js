@@ -1,6 +1,6 @@
 import { isFloat, getRandomFloat, likeFloat3 } from './lib.js';
 
-export default function Float(value) {
+function Float(value) {
     value = value ?? Float.random();
     if (this instanceof Float) {
         this.value = value;
@@ -55,3 +55,5 @@ Float.prototype.equals = function (numberToCompare) {
         return numberToCompareAsFloatInstance.valueOf === this.valueOf();
     }
 }
+
+module.export = Float;
