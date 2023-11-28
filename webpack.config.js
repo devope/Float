@@ -1,7 +1,6 @@
 const path = require('path');
 
 module.exports = {
-    // devtool: false,
     mode: 'production',
     entry: './src/index.js',
     output: {
@@ -11,6 +10,7 @@ module.exports = {
         library: {
             name: 'Float',
             type: 'umd',
+            export: 'default',
         },
     },
 };
