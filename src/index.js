@@ -1,6 +1,6 @@
 import { isFloat, getRandomFloat, likeFloat3 } from './lib.js';
 
-function Float(value) {
+export function Float(value) {
     value = value ?? Float.random();
     if (this instanceof Float) {
         this.value = value;
